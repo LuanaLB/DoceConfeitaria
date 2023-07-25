@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font: 400 1rem var(-- body-font);
+    background-color: pink;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    justify-content: flex-end;
+}
