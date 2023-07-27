@@ -31,6 +31,14 @@ h2{
     color: #331D2C;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+a{
+  color: #331D2C;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  max-width: 100%;
+  height: auto;
+}
+
 .images {
     display: flex;
     justify-content: center;
@@ -48,3 +56,29 @@ h2{
     justify-content: center;
     font-size: large;
   }
+
+/*----RECEITAS----*/
+.h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rece{
+  background-color: #F4E0B9;
+}
+
+img{
+  border-radius: 8px;
+  align-items: center;
+  padding: 5px;
+}
+
+.grup-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grup-card img{
+  max-width: 100%;
+  height: auto;
+}
