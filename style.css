@@ -19,12 +19,6 @@ body{
   text-decoration: none;
 }
 
-img{
-    border-radius: 8px;
-    align-items: center;
-    padding: 5px;
-  }
-
 h1{
     color: #7D7463;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -48,16 +42,18 @@ a{
 }
 
 .images {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  border: red solid;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .images img{
-    max-width: 100%;
-    height: auto;
-  }
+.images img{
+  border: red solid;
+  max-width: 100%;
+  height: auto;
+}
 
   .text{
     text-align: center;
@@ -67,7 +63,16 @@ a{
   }
 
 /*----RECEITAS----*/
+li{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 25px;
+}
+
+h3{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -82,6 +87,7 @@ img{
 }
 
 .grup-card{
+  margin-top: 5px;
   display: flex;
   justify-content: stretch;
   gap: 20px;
@@ -100,3 +106,38 @@ img{
   width: 33.33%;
   padding: 10px;
 }
+
+/*----COMENTARIOS----*/
+#comen{
+  color: #331D2C;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 70px; /*para que o header não sobrep*/
+}
+
+.grup-comentarios{
+  border: solid;
+  margin: 5px;
+}
+
+.comen1 {
+  border: solid;
+  margin: 5px;
+}
+
+.comen1 img{
+  object-fit: cover;
+  max-width: 100%;
+  height: 350px;
+}
+
+.comen1 p {
+  border: red solid;
+  justify-content: center;
+  float: right;
+}
+
+/*
+ 
+   
+    
+    */
