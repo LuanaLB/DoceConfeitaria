@@ -41,26 +41,25 @@ a{
   height: auto;
 }
 
-.images {
-  border: red solid;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
+#images {
+ border: solid red;
+ align-items: center;
+ padding: 10px;
+}
+
+#images img{
+  border: solid red;
+  border-radius: 8px;
+  align-items: baseline;
+  margin-left: 10px;
+}
+
+.text{
+  text-align: center;
   align-items: center;
+  justify-content: center;
+  font-size: large;
 }
-
-.images img{
-  border: red solid;
-  max-width: 100%;
-  height: auto;
-}
-
-  .text{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: large;
-  }
 
 /*----RECEITAS----*/
 li{
