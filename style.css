@@ -15,7 +15,7 @@ body{
 
 #a{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(248, 89, 89);
+  color: #af7312;
   text-decoration: none;
 }
 
@@ -41,6 +41,11 @@ a{
   height: auto;
 }
 
+span{
+  color: #5c554a;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #images {
  justify-content: center;
  align-items: center;
@@ -59,6 +64,21 @@ a{
   align-items: center;
   justify-content: center;
   font-size: large;
+}
+/*----NAVBAR----*/
+ul{
+  background-image: linear-gradient(90deg, #ebd6b5 0%, #ca9f59 50.52%, #b89e72 100%);
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  gap: 10px;
+}
+
+#nav{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #331D2C;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 /*----RECEITAS----*/
@@ -108,7 +128,7 @@ img{
 
 /*----COMENTARIOS----*/
 #comen{
-  color: #331D2C;
+  color: #af7312;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 70px; /*para que o header não sobrep*/
 }
