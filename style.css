@@ -76,6 +76,7 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 10px;
+  position: relative;
 }
 
 li{
@@ -94,11 +95,15 @@ nav img{
   object-fit: cover;
   flex-shrink: 0;
   gap: 10px;
+  position: absolute;
+  top: 0%;
+  left: 1%;
 }
 
 /*----RECEITAS----*/
 li{
   font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #331D2C;
 }
 
 h1{
